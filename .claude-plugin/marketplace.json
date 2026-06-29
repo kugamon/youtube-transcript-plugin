@@ -1,0 +1,14 @@
+{
+  "name": "youtube-transcript-plugin",
+  "owner": {
+    "name": "Kuldip Hillyer",
+    "email": "kuldip@kugamon.com"
+  },
+  "plugins": [
+    {
+      "name": "youtube-transcript",
+      "source": "./plugins/youtube-transcript",
+      "description": "Extract transcripts from YouTube videos, with or without timestamps."
+    }
+  ]
+}

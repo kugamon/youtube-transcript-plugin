@@ -1,0 +1,15 @@
+{
+  "name": "youtube-transcript",
+  "version": "0.1.0",
+  "description": "Extract transcripts from YouTube videos, with or without timestamps.",
+  "author": {
+    "name": "Kuldip Hillyer",
+    "email": "kuldip@kugamon.com"
+  },
+  "keywords": [
+    "youtube",
+    "transcript",
+    "captions",
+    "subtitles"
+  ]
+}
