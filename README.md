@@ -49,7 +49,7 @@ youtube-transcript-plugin/                  # repo root = a marketplace
                     └── get_transcript.py   # uv-run caption fetcher (PEP 723)
 ```
 
-The marketplace pattern means future contributors can add more plugins under `plugins/<name>/` and register them in `marketplace.json` — the install URL stays the same.
+The marketplace pattern means more plugins can be added under `plugins/<name>/` and registered in `marketplace.json` — the install URL stays the same.
 
 ## Install
 
@@ -142,12 +142,9 @@ When Claude saves a plain-text transcript, it cleans the line breaks into readab
 
 ## Contributing
 
-PRs welcome. Useful contributions:
+This plugin is maintained by Kugamon. Outside pull requests aren't accepted, but issues are welcome: if a transcript fails for a video that has captions, open an [issue](https://github.com/kugamon/youtube-transcript-plugin/issues) with the video URL and the error.
 
-- Language selection (let the user request a specific caption track).
-- Output formats (SRT/VTT export, JSON with start/duration).
-- More robust ID extraction (Shorts, live URLs, playlist-wrapped links).
-- New plugins (drop a folder under `plugins/<name>/` and register it in `marketplace.json`).
+The MIT license lets you fork and adapt it for your own use.
 
 ## License
 
