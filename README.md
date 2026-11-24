@@ -148,6 +148,6 @@ The MIT license lets you fork and adapt it for your own use.
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+MIT — © 2026 Kugamon LLC. See [LICENSE](./LICENSE).
 
 This project is **not affiliated with YouTube, Google LLC, or Anthropic.** It relies on the third-party `youtube-transcript-api` library; YouTube's terms and caption availability may change at any time.
